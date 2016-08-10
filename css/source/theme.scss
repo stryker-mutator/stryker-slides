@@ -18,22 +18,26 @@
 
 // Include theme-specific fonts
 @import url(../bower_components/reveal.js/lib/font/source-sans-pro/source-sans-pro.css);
-
+@font-face {
+    font-family: Carrois;
+    src: url(../resources/CarroisGothic-Regular.ttf);
+}
 
 // Override theme settings (see ../../bower_components/reveal.js/css/theme/template/settings.scss)
 $backgroundColor: #222;
 
 $mainColor: #fff;
-$headingColor: #fff;
+$headingColor: #f1c40f;
+$strykerRed: #b74934;
 
 $mainFontSize: 38px;
 $mainFont: 'Source Sans Pro', Helvetica, sans-serif;
-$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: Carrois, Helvetica, sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
-$headingTextTransform: uppercase;
+$headingTextTransform: normal;
 $headingFontWeight: 600;
-$linkColor: #42affa;
+$linkColor: $strykerRed;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 
@@ -51,3 +55,20 @@ section.has-light-background {
 // Theme template ------------------------------
 @import "../../bower_components/reveal.js/css/theme/template/theme";
 // ---------------------------------------------
+
+
+/*********************************************
+ * Theme specific customizations
+ *********************************************/
+.reveal::after {
+    content: "";
+    background-image: url(../resources/stryker_205x205.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    height: 10%;
+    width: 100%;
+}
+
