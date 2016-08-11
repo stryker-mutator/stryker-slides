@@ -1,0 +1,18 @@
+<h1>Mutation testing</h1>
+
+<pre class="fragment" data-fragment-index="1"><code class="lang-javascript" data-noescape data-trim>
+function between(low, value, high){
+    return value <span class="fragment fade-out" data-fragment-index="2">></span><mark class="fragment" data-fragment-index="2">>=</mark> low && value <span class="fragment fade-out" data-fragment-index="4">&lt;=</span><mark class="fragment fade-in" data-fragment-index="4">></mark> high;</span>
+}
+
+<span class="fragment" data-fragment-index="3">describe('between', function(){
+    it('should be false for 4, 4, 6', function(){
+        expect(between(4, 4, 6)).to.be.false; // Kills mutant 1
+    });
+
+    <span class="fragment" data-fragment-index="5">it('should be true for 4, 6, 6', function(){
+        expect(between(4, 5, 6)).to.be.true; // Kills mutant 2
+    });</span>
+});</span>
+</code>
+</pre>
