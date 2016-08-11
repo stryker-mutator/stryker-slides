@@ -1,7 +1,7 @@
 [
     "index.md",
-    ["questions/index.md", "questions/unit-testing.md", "questions/code-coverage.md", "questions/asserts.md", "questions/mutation-testing.md"],
-    ["mutation-testing/index.md", "mutation-testing/code-coverage-problems.md", "mutation-testing/mutation-testing-explained.md", "mutation-testing/research.md", "mutation-testing/frameworks.md"],
+    ["questions/index.md", "questions/unit-testing.md", "questions/code-coverage.md", "questions/asserts.html", "questions/mutation-testing.html"],
+    ["mutation-testing/index.md", "mutation-testing/code-coverage-problems.html", "mutation-testing/mutation-testing-explained.md", "mutation-testing/research.md", "mutation-testing/frameworks.md"],
     ["stryker/index.md", "stryker/philosophy.md", "stryker/package-structure.md", "stryker/extensibility.md", "stryker/internals.md"],
     ["demo/index.md"],
     ["lessons-learned/index.md", "lessons-learned/open-source.md", "lessons-learned/discussions.md"]

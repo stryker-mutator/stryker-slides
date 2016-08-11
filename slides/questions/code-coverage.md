@@ -1,1 +1,1 @@
-# Who has a code coverage goal in their project?
+# Whom of those use code coverage?

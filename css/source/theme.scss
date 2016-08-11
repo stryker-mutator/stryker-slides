@@ -72,3 +72,22 @@ section.has-light-background {
     width: 100%;
 }
 
+.reveal {
+    .flex {
+        display: flex;
+    }
+
+    .col {
+        flex: 1 1 0;
+        padding-right: 40px;
+        text-align: left;
+    }
+
+    section img {
+        border:0;
+    }
+
+    .pin-width-150{
+        width: 150px;
+    }
+}

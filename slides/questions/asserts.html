@@ -1,0 +1,14 @@
+<h1>Who has ever seen disabled tests/asserts?</h1>
+<pre><code class="lang-csharp" data-noescape data-trim>
+[TestMethod]
+<mark>[Ignore]</mark>
+public void Status_WithId34_ShouldFindItemWithId34()
+{
+    // Act
+    var viewResult = _sut.Status(34) as ViewResult;</code></pre>
+<pre><code class="lang-javascript" data-noescape data-trim>
+it('should have saved file', () => {
+    sut.save('a file');
+    <mark>//</mark> expect(TempFolder.writeFile).to.have.been.called;
+});
+</code>

@@ -1,0 +1,12 @@
+<h1>Code coverage?</h1>
+<pre><code class="lang-javascript fragment" data-noescape data-trim>
+function between(low, value, high){
+    <span class="fragment highlight-green"> return value <span class="fragment highlight-red">&lt;</span> low && value <span class="fragment highlight-red">>=</span> high;</span>
+}
+
+describe(' 4 < 5 < 6 ', function(){
+    it('should be true', function(){
+        expect(between(4, 5, 6)).to.be.true;
+    });
+});
+</code></pre>

@@ -1,6 +1,8 @@
 
 # Mutation testing in practice
 
+With Stryker
+
 From the terminal, pop in:
 
   ```yo reveal:slide "Slide Title"```
