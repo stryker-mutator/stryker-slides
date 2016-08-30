@@ -316,3 +316,6 @@ body {
 
 .reveal .pin-width-150 {
   width: 150px; }
+
+.reveal th {
+  color: #f1c40f; }
