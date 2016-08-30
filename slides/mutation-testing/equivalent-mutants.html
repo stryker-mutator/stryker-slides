@@ -1,0 +1,18 @@
+<h1>Equivalent mutants</h1>
+<pre class="fragment" data-fragment-index="1"><code class="lang-javascript" data-noescape data-trim>
+var list = [...];
+var max = list[0];
+
+for(var i = 1; i < list.length; i++) {
+    if(list[i] > max)
+        max = list[i];
+}
+</code></pre>
+
+<pre class="fragment" data-fragment-index="2"><code class="lang-javascript" data-noescape data-trim>
+for(var i = 0; i < list.length; i++) {
+</code></pre>
+
+<pre class="fragment" data-fragment-index="3"><code class="lang-javascript" data-noescape data-trim>
+    if(list[i] >= max)
+</code></pre>
