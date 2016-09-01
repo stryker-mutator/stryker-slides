@@ -1,2 +1,2 @@
-# Discussions on WhatsApp
+## Discussions on WhatsApp
 Don't!
