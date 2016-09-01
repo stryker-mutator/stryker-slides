@@ -2,7 +2,6 @@
 
 1. <!-- .element: class="fragment" -->
    Production code is mutated
-    * A mutation is called a `Mutant`
 2. <!-- .element: class="fragment" -->
     Your tests are ran for each `Mutant`
     * If tests *fail*, the mutant is *killed*
