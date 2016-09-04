@@ -1,9 +1,6 @@
-## Research
-
-Most languages have one active mutation testing framework
-
+## Available frameworks
 | Language    | Framework     |
-| ----------- |:-------------:|
+| ----------- | ------------- |
 | Java        | PIT           |
 | JavaScript  | Stryker       |
 | C#          | ...           |
