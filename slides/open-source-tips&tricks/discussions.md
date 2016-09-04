@@ -1,2 +1,5 @@
-## Discussions on WhatsApp
-Don't!
+## Discussions
+
+![WhatsApp](resources/whatsapp.png)?
+
+*Don't!* <!-- element .fragment -->

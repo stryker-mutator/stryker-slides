@@ -2,5 +2,6 @@
 
 1. Questions
 2. Mutation testing
-3. Stryker
-4. Open source tips & tricks
+3. Research
+4. Stryker
+5. Open source tips & tricks
