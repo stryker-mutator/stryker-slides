@@ -1,4 +1,4 @@
-## Open source development rocks!
+## Create a place to chat
 
 > I am also extremely glad that you guys focused on extensibility from the beginning!
 
