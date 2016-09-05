@@ -4,5 +4,5 @@
     ["mutation-testing/index.md", "mutation-testing/code-coverage-problems.html","mutation-testing/introducing-bugs.html", "mutation-testing/mutation-testing-explained.md","mutation-testing/mutation-testing-explained.2.md"],
     ["research/index.md", "research/research-results.md","research/equivalent-mutants.html", "research/frameworks.md", "research/demo-pit.html"],
     ["stryker/index.md", "stryker/philosophy.md","stryker/javascript-testing-world.md", "stryker/features.md", "stryker/easy.html", "stryker/fast.md", "stryker/extensibility.md", "stryker/extensibility-mutator.md", "stryker/demo.md", "stryker/internals.md"],
-    ["open-source-tips&tricks/index.md", "open-source-tips&tricks/chat.md", "open-source-tips&tricks/discussions.md", "open-source-tips&tricks/contact.md", "open-source-tips&tricks/call-to-action.md"  ]
+    ["open-source-tips&tricks/index.md", "open-source-tips&tricks/dont-be-afraid.md", "open-source-tips&tricks/semantic-versioning.md", "open-source-tips&tricks/discussions.html", "open-source-tips&tricks/contact.md", "open-source-tips&tricks/feedback.md", "open-source-tips&tricks/feedback.2.md", "open-source-tips&tricks/call-to-action.md"  ]
 ]

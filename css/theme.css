@@ -26,7 +26,7 @@ body {
 
 ::selection {
   color: #fff;
-  background: #de998c;
+  background: #fbf1ef;
   text-shadow: none; }
 
 .reveal .slides > section,
@@ -208,20 +208,20 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #b74934;
+  color: #de998c;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #d37664;
+  color: #efcec8;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #7b3123; }
+  background: #cd6551; }
 
 /*********************************************
  * IMAGES
@@ -243,7 +243,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #b74934;
+  border-color: #de998c;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -251,31 +251,31 @@ body {
  *********************************************/
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
-  border-right-color: #b74934; }
+  border-right-color: #de998c; }
 
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
-  border-left-color: #b74934; }
+  border-left-color: #de998c; }
 
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-up.enabled {
-  border-bottom-color: #b74934; }
+  border-bottom-color: #de998c; }
 
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
-  border-top-color: #b74934; }
+  border-top-color: #de998c; }
 
 .reveal .controls .navigate-left.enabled:hover {
-  border-right-color: #d37664; }
+  border-right-color: #efcec8; }
 
 .reveal .controls .navigate-right.enabled:hover {
-  border-left-color: #d37664; }
+  border-left-color: #efcec8; }
 
 .reveal .controls .navigate-up.enabled:hover {
-  border-bottom-color: #d37664; }
+  border-bottom-color: #efcec8; }
 
 .reveal .controls .navigate-down.enabled:hover {
-  border-top-color: #d37664; }
+  border-top-color: #efcec8; }
 
 /*********************************************
  * PROGRESS BAR
@@ -284,7 +284,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #b74934;
+  background: #de998c;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
@@ -319,3 +319,8 @@ body {
 
 .reveal th {
   color: #f1c40f; }
+
+.reveal mark {
+  background-color: #f7dc6f; }
+  .reveal mark .hljs-number {
+    color: #333 !important; }

@@ -37,7 +37,7 @@ $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: normal;
 $headingFontWeight: 600;
-$linkColor: $strykerRed;
+$linkColor: lighten( $strykerRed, 25% );
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 
@@ -51,6 +51,7 @@ section.has-light-background {
 		color: #222;
 	}
 }
+
 
 // Theme template ------------------------------
 @import "../../bower_components/reveal.js/css/theme/template/theme";
@@ -92,5 +93,13 @@ section.has-light-background {
     }
     th {
       color: $headingColor;
+    }
+
+    mark {
+      background-color: lighten($headingColor, 20%);
+
+      .hljs-number {
+        color: #333 !important;
+      }
     }
 }
