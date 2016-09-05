@@ -7,11 +7,11 @@ function between(low, value, high){
 
 <span class="fragment" data-fragment-index="3">describe('between', function(){
     it('should be false for 4, 4, 6', function(){
-        expect(between(4, 4, 6)).to.be.false; // Kills mutant 1
+        expect(between(4, 4, 6)).to.be.false; // Kills bug 1
     });
 
     <span class="fragment" data-fragment-index="5">it('should be true for 4, 6, 6', function(){
-        expect(between(4, 6, 6)).to.be.true; // Kills mutant 2
+        expect(between(4, 6, 6)).to.be.true; // Kills bug 2
     });</span>
 });</span>
 </code>
