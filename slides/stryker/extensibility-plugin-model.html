@@ -1,0 +1,17 @@
+<h2>Extensibility - Plugin model</h2>
+
+<p class="fragment">
+    Main npm module: <code>stryker</code>
+</p>
+
+<div class="fragment">
+    Plugins defined as peer dependencies:
+    <ul>
+        <li><code>stryker-karma-runner</code></li>
+        <li><code>stryker-html-reporter</code></li>
+        <li>your plugin here...</li>
+    </ul>
+</div>
+<p class="fragment">
+    The `stryker-api` dependency has the glue to put it all together.
+</p>
