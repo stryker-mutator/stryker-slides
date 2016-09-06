@@ -2,6 +2,7 @@
 
 ```JavaScript
 import {MutatorFactory} from 'stryker-api/mutant';
+
 class BlockStatementMutator {
   applyMutations(node, copy) {
     let nodes = [];
@@ -11,6 +12,7 @@ class BlockStatementMutator {
     return nodes;
   }
 }
+
 MutatorFactory.instance()
     .register('BlockStatement', BlockStatementMutator);
 ```

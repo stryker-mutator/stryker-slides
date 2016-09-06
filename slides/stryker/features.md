@@ -1,4 +1,4 @@
-## Stryker Features
+## Stryker features
 
 1. <!-- .element: class="fragment" data-fragment-index="2" -->
 Be *easy* to use
