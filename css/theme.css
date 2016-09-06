@@ -312,10 +312,14 @@ body {
   text-align: left; }
 
 .reveal section img {
-  border: 0; }
+  border: 0;
+  background: none; }
 
 .reveal .pin-width-150 {
   width: 150px; }
+
+.reveal .pin-width-250 {
+  width: 250px; }
 
 .reveal th {
   color: #f1c40f; }

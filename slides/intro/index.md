@@ -1,4 +1,4 @@
-# Introduction
+## Mutation testing in practice
 
 1. Questions
 2. Mutation testing

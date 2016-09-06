@@ -1,12 +1,5 @@
 
 # Mutation testing in practice
 
-With Stryker
 
-From the terminal, pop in:
-
-  ```yo reveal:slide "Slide Title"```
-
-Available options:
-
- ```--markdown --attributes --notes```
+![Stryker](resources/stryker.svg) <!-- .element class="pin-width-250" -->
