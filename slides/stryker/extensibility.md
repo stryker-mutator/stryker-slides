@@ -1,6 +1,6 @@
 ## Extensibility
 
-Stryker uses the karma plugin model
+Stryker uses a plugin model
 
 * Plugin mutators
 * Plugin reporters
