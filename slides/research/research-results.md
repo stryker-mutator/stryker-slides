@@ -5,6 +5,6 @@
     * It should be easy to set-up
     * It should clearly show which mutants survived
 * <!-- .element: class="fragment" data-fragment-index="3" -->
-    The acedemic world has a different approach to mutation testing
+    The academic world has a different approach to mutation testing
     * Higher order mutants
     * Equivalent mutants
